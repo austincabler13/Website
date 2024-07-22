@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 body {
@@ -10,6 +11,9 @@ body {
     color: #333;
     background-color: #f5f5f5;
     line-height: 1.6;
+    margin-top: 3rem;
+    scroll-behavior: smooth;
+    
 }
 
 header {
